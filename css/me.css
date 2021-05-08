@@ -1,0 +1,185 @@
+body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    max-width: 80%;
+    background: #aefcae;
+    animation: background 40s linear infinite alternate;
+}
+@keyframes background {
+    20%{background: #f8f8ae;}
+    40%{background: #fdbcc6;}
+    60%{background: lightblue;}
+    80%{background: #c4aaf6;}
+    100%{background: #baf6aa;}
+}
+@keyframes background2 {
+    20%{background: #fdbcc6;}
+    40%{background: lightblue;}
+    60%{background: #c4aaf6;}
+    80%{background: #baf6aa;}
+    100%{background: #f8f8ae;}
+}
+
+@keyframes snow {
+    0% {background-position: 0 0, 0 0, 0 0;}
+    100% {background-position: 50000px 50000px, 10000px 20000px, -10000px 15000px;}
+}
+
+/*основоной блок*/
+
+@media (min-width: 1000px) {
+    .main_block{
+        height: 100%;
+        width: 900px;
+        margin: auto;
+        border-radius: 45px;
+        background-color: snow;
+    }
+    .snow{
+        padding: 10% 0 15%;
+        margin: 0;
+        background-image: url('../img/я/tile-1.png'), url('../img/я/tile.png'), url('../img/я/tile-2.png');
+        height: 1000px;
+        left: 0;
+        position: absolute;
+        top: 0;
+        width: 100%;
+        z-index:1;
+        animation: snow 1000s linear infinite;
+        transform: translate3d(0,0,0);
+        background-attachment: inherit;
+    }
+}
+
+@media (max-width: 1000px) {
+    .main_block{
+        height: 1200px;
+        width: 700px;
+        margin: auto;
+        border-radius: 45px;
+        background-color: snow;
+    }
+    .snow{
+        padding: 10% 0 15%;
+        margin: 0;
+        background-image: url('../img/я/tile-1.png'), url('../img/я/tile.png'), url('../img/я/tile-2.png');
+        height: 1200px;
+        left: 0;
+        position: absolute;
+        top: 0;
+        width: 100%;
+        z-index:1;
+        animation: snow 1000s linear infinite;
+        transform: translate3d(0,0,0);
+        background-attachment: inherit;
+    }
+}
+
+.shapka{
+    width: 100%;
+    height: 200px;
+    background: #f8f8ae;
+    animation: background2 40s linear infinite alternate;
+    border-radius: 45px 45px 0 0;
+}
+@font-face {
+    font-family: just; /* Гарнитура шрифта */
+    src: local(just), url(../fonts/19319.ttf);
+}
+@font-face {
+    font-family: just1; /* Гарнитура шрифта */
+    src: local(just1), url(../fonts/19813.ttf);
+}
+@font-face {
+    font-family: ital; /* Гарнитура шрифта */
+    src: local(ital), url(../fonts/20180.otf);
+}
+p,h1,h2,h3,h4,h5,h6{
+    margin: 0;
+    padding: 0;
+    cursor: default;
+    text-decoration: none;
+}
+a{
+    margin: 0;
+    padding: 1%;
+    cursor: pointer;
+    text-decoration: none;
+    color: #403f3f;
+}
+.shapka p{
+    text-align: center;
+    font-size: 30px;
+    color: #403f3f;
+}
+
+.description{
+    color: #403f3f;
+    padding: 50px;
+    font-family: just,serif;
+    font-size: 20px;
+    text-align: justify;
+}
+.foot{
+    height: 220px;
+    background: #f8f8ae;
+    animation: background2 40s linear infinite alternate;
+    border-radius: 0 0 45px 45px;
+}
+
+:root {
+    --bg: #1a1e24;
+    --color: #eee;
+    --font: Montserrat, Roboto, Helvetica, Arial, sans-serif;
+}
+.wrapper {
+    margin: auto;
+    width: 200px;
+    padding: 5rem 0;
+    filter: url('#goo');
+}
+
+.button {
+    display: inline-block;
+    text-align: center;
+    background: var(--color);
+    color: var(--bg);
+    padding: 1.18em 1.32em 1.03em;
+    line-height: 1;
+    border-radius: 1em;
+    position: relative;
+    min-width: 8.23em;
+    text-decoration: none;
+    font-family: just,serif;
+    font-size: 1.25rem;
+}
+
+.button:before,
+.button:after {
+    width: 4.4em;
+    height: 2.95em;
+    position: absolute;
+    content: "";
+    display: inline-block;
+    background: var(--color);
+    border-radius: 50%;
+    transition: transform 1s ease;
+    transform: scale(0);
+    z-index: -1;
+}
+
+.button:before {
+    top: -25%;
+    left: 20%;
+}
+
+.button:after {
+    bottom: -25%;
+    right: 20%;
+}
+
+.button:hover:before,
+.button:hover:after {
+    transform: none;
+}
