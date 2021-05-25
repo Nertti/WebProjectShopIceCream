@@ -680,7 +680,7 @@ span{
 
 .simple-little-table {
     cursor: default;
-    /*width: 480px;*/
+    width: 480px;
     margin: auto;
     font-family:just,serif;
     color:#666;
