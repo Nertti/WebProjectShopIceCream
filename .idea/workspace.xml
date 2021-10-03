@@ -1,15 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8c4d4b2d-7fb2-4d42-8503-af32b3b20641" name="Default Changelist" comment="Адаптация">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/main2.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/main2.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/event.html" beforeDir="false" afterPath="$PROJECT_DIR$/event.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/main2.html" beforeDir="false" afterPath="$PROJECT_DIR$/main2.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/map.html" beforeDir="false" afterPath="$PROJECT_DIR$/map.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/me.html" beforeDir="false" afterPath="$PROJECT_DIR$/me.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/menu.html" beforeDir="false" afterPath="$PROJECT_DIR$/menu.html" afterDir="false" />
-    </list>
+    <list default="true" id="8c4d4b2d-7fb2-4d42-8503-af32b3b20641" name="Default Changelist" comment="update for page" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -146,6 +138,7 @@
       <workItem from="1631170447011" duration="891000" />
       <workItem from="1632388456515" duration="1198000" />
       <workItem from="1633274162340" duration="501000" />
+      <workItem from="1633274675224" duration="99000" />
     </task>
     <task id="LOCAL-00001" summary="WebProject1">
       <created>1620458966770</created>
@@ -168,7 +161,14 @@
       <option name="project" value="LOCAL" />
       <updated>1621963108613</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="update for page">
+      <created>1633274710460</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1633274710460</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -189,6 +189,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="WebProject1" />
     <MESSAGE value="Адаптация" />
-    <option name="LAST_COMMIT_MESSAGE" value="Адаптация" />
+    <MESSAGE value="update for page" />
+    <option name="LAST_COMMIT_MESSAGE" value="update for page" />
   </component>
 </project>
